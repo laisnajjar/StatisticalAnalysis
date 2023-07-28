@@ -1,0 +1,24 @@
+Variable,Chi-Square Statistic,p-value,Degrees of Freedom
+Nature,2.666962174940898,0.10245140691326785,1
+Wildlife,7.3304521276595755,0.006779599802252717,1
+Attire,7.586503331184184,0.05537697722232359,3
+Cuisine,0.8704061895551257,0.8325629566016487,3
+Architecture,14.305672284395689,0.00015539591875140995,1
+Leisure Activity,0.0,1.0,1
+,
+,
+"The Chi-Square test is used to determine if there is a significant association between two categorical variables. In your case, you're testing the association between the variable 'Orientalism' and each of the non-regional variables ('Nature', 'Wildlife', 'Attire', 'Cuisine', 'Architecture', 'Leisure Activity')".
+,
+"Nature: The Chi-Square statistic is 2.67, the p-value is 0.1, and the degrees of freedom is 1. The p-value is greater than 0.05, which means that we fail to reject the null hypothesis. In other words, there is not enough evidence to suggest a significant association between 'Orientalism' and 'Nature'."
+,
+"Wildlife: The Chi-Square statistic is 7.33, the p-value is 0.01, and the degrees of freedom is 1. The p-value is less than 0.05, which means that we reject the null hypothesis. In other words, there is a significant association between 'Orientalism' and 'Wildlife'."
+,
+"Attire: The Chi-Square statistic is 7.59, the p-value is 0.06, and the degrees of freedom is 3. The p-value is slightly greater than 0.05, which means that we fail to reject the null hypothesis. In other words, there is not enough evidence to suggest a significant association between 'Orientalism' and 'Attire'. However, given that the p-value is very close to 0.05, it might be worth investigating further."
+,
+"Cuisine: The Chi-Square statistic is 0.87, the p-value is 0.83, and the degrees of freedom is 3. The p-value is greater than 0.05, which means that we fail to reject the null hypothesis. In other words, there is not enough evidence to suggest a significant association between 'Orientalism' and 'Cuisine'."
+,
+"Architecture: The Chi-Square statistic is 14.31, the p-value is approximately 0, and the degrees of freedom is 1. The p-value is less than 0.05, which means that we reject the null hypothesis. In other words, there is a significant association between 'Orientalism' and 'Architecture'."
+,
+"Leisure Activity: The Chi-Square statistic is 0, the p-value is 1, and the degrees of freedom is 1. The p-value is greater than 0.05, which means that we fail to reject the null hypothesis. In other words, there is not enough evidence to suggest a significant association between 'Orientalism' and 'Leisure Activity'."
+,
+"In summary, there is a significant association between 'Orientalism' and the variables 'Wildlife' and 'Architecture'. There is not a significant association between 'Orientalism' and the variables 'Nature', 'Attire', 'Cuisine', and 'Leisure Activity'. However, 'Attire' might be worth investigating further due to its p-value being very close to 0.05."

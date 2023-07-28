@@ -1,0 +1,26 @@
+Dep. Variable,Orientalism,Orientalism
+No. Observations,100,100
+Model,Logit,Logit
+Df Residuals,98,98
+Method,MLE,MLE
+Df Model,1,1
+Date,Wed, 26 Jul 2023,Wed, 26 Jul 2023
+Pseudo R-squ.,0.05326,0.05326
+Time,01:05:55,01:05:55
+Log-Likelihood,-46.033,-46.033
+converged,True,True
+LL-Null,-48.622,-48.622
+Covariance Type,nonrobust,nonrobust
+LLR p-value,0.02286,0.02286
+coef,const,1.9636,1.9636
+std err,const,0.378,0.378
+z,const,5.201,5.201
+P>|z|,0.000,0.000
+[0.025,const,1.224,1.224
+[0.975,const,2.704,2.704
+coef,Place,-1.1835,-1.1835
+std err,Place,0.525,0.525
+z,Place,-2.256,-2.256
+P>|z|,0.024,0.024
+[0.025,Place,-2.211,-2.211
+[0.975,Place,-0.155,-0.155

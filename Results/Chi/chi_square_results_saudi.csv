@@ -1,0 +1,18 @@
+Variable,Chi-Square Statistic,p-value,Degrees of Freedom
+Cultural Site,3.1402027027027017,0.07638431414911005,1
+Religious Theme,9.031838856400261,0.01093354789182811,2
+Desert,15.36205204704812,8.875297341451976e-05,1
+Attire,9.600475812301674,0.0222861433939889,3
+,
+"The Chi-Square test is used to determine if there is a significant association between two categorical variables. In your case, you're testing the association between the variable 'Orientalism' and each of the regional variables ('Cultural Site', 'Religious Theme', 'Desert', 'Attire')."
+,
+"Cultural Site: The Chi-Square statistic is 3.14, the p-value is 0.076, and the degrees of freedom is 1. The p-value is greater than 0.05, which means that we fail to reject the null hypothesis. In other words, there is not enough evidence to suggest a significant association between 'Orientalism' and 'Cultural Site'."
+,
+"Religious Theme: The Chi-Square statistic is 9.03, the p-value is 0.011, and the degrees of freedom is 2. The p-value is less than 0.05, which means that we reject the null hypothesis. In other words, there is a significant association between 'Orientalism' and 'Religious Theme'."
+,
+"Desert: The Chi-Square statistic is 15.36, the p-value is approximately 0.000089, and the degrees of freedom is 1. The p-value is less than 0.05, which means that we reject the null hypothesis. In other words, there is a significant association between 'Orientalism' and 'Desert'."
+,
+"Attire: The Chi-Square statistic is 9.60, the p-value is 0.022, and the degrees of freedom is 3. The p-value is less than 0.05, which means that we reject the null hypothesis. In other words, there is a significant association between 'Orientalism' and 'Attire'."
+,
+"In summary, there is a significant association between 'Orientalism' and the variables 'Religious Theme', 'Desert', and 'Attire'. There is not a significant association between 'Orientalism' and 'Cultural Site'."
+,
