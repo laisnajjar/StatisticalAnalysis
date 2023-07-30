@@ -4,7 +4,7 @@ import os
 
 df = pd.read_csv('Data_Sets/saudi_data.csv')
 # List of variables for which you want to count the frequencies
-variables = ['Place', 'Like Count (Masa Only)', 'Cultural Site', 'Name of Site', 'Religious Theme', 'Name of Artifact', 'Desert', 'Nature', 'Name of lanscape', 'Wildlife', 'Name of Wildlife', 'Architecture', 'Name of Artifact', 'Megaevents/Festivals', 'Name of Event', 'Leisure Activity', 'Name of Activity', 'Orientalism']
+variables = ['Place', 'Like Count (Masa Only)', 'Cultural Site', 'Religious Theme','Desert', 'Nature', 'Name of lanscape', 'Wildlife', 'Name of Wildlife', 'Architecture', 'Name of Artifact', 'Megaevents/Festivals', 'Name of Event', 'Leisure Activity', 'Orientalism']
 
 # Initialize a dictionary to store the results
 results = {}
@@ -14,13 +14,15 @@ for var in variables:
     # Count the frequency of 0's and 1's
     counts = df[var].value_counts()
     # Store the results
+    if(var == 'Cultural Site'): 
+        print(counts)
     results[var] = {'0': counts.get(0, 0), '1': counts.get(1, 0)}
 
 # Convert the results dictionary to a DataFrame
 df_results = pd.DataFrame(results).T
 
 # Append the DataFrame to the existing CSV file
-df_results.to_csv('results.csv')
+#df_results.to_csv('results.csv')
 
 # Initialize a dictionary to store the results
 results = {}
@@ -49,7 +51,7 @@ for var in ['Attire']:
     results[var] = counts
 
 # Convert the results dictionary to a DataFrame
-df_results = pd.DataFrame(results).T
+#df_results = pd.DataFrame(results).T
 
 # Append the DataFrame to the existing CSV file
 df_results.to_csv('results.csv', mode='a', header=False)
